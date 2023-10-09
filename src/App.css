@@ -1,0 +1,89 @@
+body{
+  background-color: rgb(4, 9, 22);
+}
+.headerParent{
+  background-color: gray;
+  padding:10px;
+  margin: auto;
+  width:420px;
+}
+.header{
+  text-align: center;
+  background-color: black;
+  color:white;
+  font-size: 30px;
+  font-weight: 600;
+  width:400px;
+  margin: auto;
+  padding: 10px;
+}
+
+.inputBox {
+     margin: auto;
+     width:400px;
+     margin-top: 20px;
+     display: flex;
+}
+.inputBox input{
+  width:300px;
+  height: 30px;
+  border: none;
+  border-radius: 20px;
+  background-color: gainsboro;
+  padding-left: 10px;
+}
+.addBtn{
+  width:50px;
+  padding:5px;
+  background-color: gray;
+  margin-left: 20px;
+  margin-top: -3px;
+  border-radius: 20px;
+}
+.inputBox button{
+  width:50px;
+  background-color: black;
+  color: white;
+  border: none;
+  border-radius: 20px;
+  padding: 5px;
+  font-size: 16px;
+  
+}
+.todoItems{
+  width:400px;
+  height:auto;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+  background-color: gray;
+  gap:20px;
+  padding: 10px;
+}
+.item{
+  background-color: black;
+  color: rgb(211, 207, 207);
+  width:90%;
+  height:50px;
+  display: flex;
+  align-items: center;
+  font-size: 23px;
+  font-weight: 400;
+  justify-content: space-between;
+  padding: 0 20px;
+}
+.btns{
+  display: flex;
+  gap:20px;
+}
+.fa{
+  font-size: 25px;
+  cursor: pointer;
+}
+.lineThrough{
+  text-decoration: line-through 3px red;
+ 
+}
