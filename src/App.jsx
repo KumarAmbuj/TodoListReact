@@ -25,7 +25,10 @@ function App() {
         value: val,
         mark: false,
       };
-      setData([...data, obj]);
+      let x=[...data];
+      x.unshift(obj);
+      setData(x)
+      //setData([...data, obj]);
       toast.info(`task ${val} added !!`);
       setVal("");
     }
